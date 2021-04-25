@@ -2,15 +2,12 @@ Este projeto faz parte da disciplina de Teoria da Computação ministrada pelo P
 
 This project is part of the Theory of Computation subject taught by Professor "Giba" in the 5th period of the Computer Science course at UNITRI University.
 
-# Desenvolvido por Matheus Valadão.
-# Developed by Matheus Valadão.
+# Desenvolvido por Matheus Valadão / Developed by Matheus Valadão.
 
-[BR]
-# Simulador Norma
+
+# Simulador Norma / Norma Simulator
 Aplicação C# que simula o funcionamento de uma máquina registradora NORMA.
 
-[EN]
-# NormaSimulator
 C# application that simulates how NORMA register machine works.
 
 
