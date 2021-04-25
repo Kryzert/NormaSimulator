@@ -15,7 +15,7 @@ C# application that simulates how NORMA register machine works.
 
 # [BR]
 # 1. Rodando a aplicação:
-Acesse a pasta de "release" e execute o aplicativo ".exe".
+Acesse a pasta "bin" depois "release" e execute o aplicativo ".exe".
 Após a execução do aplicativo, você verá uma tela com 2 entradas, 3 botões e um console em branco.
 
 # 2. Usando a aplicação:
@@ -30,7 +30,7 @@ Após a inicialização dos registros, ele iniciará a execução da operação 
 
 # [EN]
 # 1. Runing the app:
-Access the "release" folder and run the ".exe" application.
+Access the "bin" then "release" folder and run the ".exe" application.
 After the application runs, you will be able to see a screen with 2 inputs, 3 buttons and a white console.
 
 # 2. Using the app:
