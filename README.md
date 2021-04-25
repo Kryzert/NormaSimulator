@@ -1,4 +1,5 @@
 Este projeto faz parte da disciplina de Teoria da Computação ministrada pelo Professor "Giba" no 5º período do curso de Ciência da Computação da Universidade UNITRI.
+
 This project is part of the Theory of Computation subject taught by Professor "Giba" in the 5th period of the Computer Science course at UNITRI University.
 
 # Desenvolvido por Matheus Valadão.
