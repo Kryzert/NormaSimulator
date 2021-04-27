@@ -43,37 +43,34 @@ namespace MaquinaNorma
         }
         private Par Soma(Par A, Par B)
         {
-            if (A.value[1] > B.value[1])
+            while (!Zero(B))
             {
-                while (!Zero(B))
-                {
-                    A = Inc(A);
-                    B = Dec(B);
-                }
-                return A;
+                A = Inc(A);
+                B = Dec(B);
             }
-            else
-            {
-                while (!Zero(A))
-                {
-                    B = Inc(B);
-                    A = Dec(A);
-                }
-                return B;
-            }
-
+            return A;
         }
         private Par Sub(Par A, Par B)
         {
             while (!Zero(B))
             {
-                Dec(A);
-                Dec(B);
-                if (Zero(B))
+                if (Zero(A))
                 {
                     A.value[0] = 1;
+                    while (!Zero(B))
+                    {
+                        Inc(A);
+                        Dec(B);
+                    }
+                    return A;
+                }
+                else
+                {
+                    Dec(A);
+                    Dec(B);
                 }
             }
+
             return A;
         }
         private Par Mult(Par A, Par B)
@@ -144,7 +141,7 @@ namespace MaquinaNorma
             B = Initialize(B);
             var result = Soma(A, B);
             txtConsole.AppendText("-- Soma finalizada --" + "\n" + Environment.NewLine);
-            txtConsole.AppendText("Resultado: " + result.value[1] + "\n" + Environment.NewLine);
+            txtConsole.AppendText("Resultado: [" + result.value[0] + "," + result.value[1] + "]\n" + Environment.NewLine);
         }
 
         private void btnSub_Click(object sender, EventArgs e)
@@ -159,16 +156,8 @@ namespace MaquinaNorma
             A = Initialize(A);
             B = Initialize(B);
             var result = Sub(A, B);
-            if (result.value[0] == 0)
-            {
-                txtConsole.AppendText("-- Subtracao finalizada --" + "\n" + Environment.NewLine);
-                txtConsole.AppendText("Resultado: -" + result.value[1] + "\n" + Environment.NewLine);
-            }
-            else
-            {
-                txtConsole.AppendText("-- Subtracao finalizada --" + "\n" + Environment.NewLine);
-                txtConsole.AppendText("Resultado: " + result.value[1] + "\n" + Environment.NewLine);
-            }
+            txtConsole.AppendText("-- Subtracao finalizada --" + "\n" + Environment.NewLine);
+            txtConsole.AppendText("Resultado: [" + result.value[0] + "," + result.value[1] + "]\n" + Environment.NewLine);
         }
 
         private void btnMult_Click(object sender, EventArgs e)
@@ -184,7 +173,7 @@ namespace MaquinaNorma
             B = Initialize(B);
             var result = Mult(A, B);
             txtConsole.AppendText("-- Multiplicação finalizada --" + "\n" + Environment.NewLine);
-            txtConsole.AppendText("Resultado: " + result.value[1] + "\n" + Environment.NewLine);
+            txtConsole.AppendText("Resultado: [" + result.value[0] + "," + result.value[1] + "]\n" + Environment.NewLine);
         }
     }
 }

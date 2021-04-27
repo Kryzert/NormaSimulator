@@ -50,6 +50,7 @@ namespace MaquinaNorma
             // 
             // btnSub
             // 
+            this.btnSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSub.Location = new System.Drawing.Point(349, 74);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(30, 27);
@@ -60,6 +61,7 @@ namespace MaquinaNorma
             // 
             // btnSoma
             // 
+            this.btnSoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSoma.Location = new System.Drawing.Point(349, 41);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(30, 27);
@@ -70,6 +72,7 @@ namespace MaquinaNorma
             // 
             // btnMult
             // 
+            this.btnMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMult.Location = new System.Drawing.Point(349, 107);
             this.btnMult.Name = "btnMult";
             this.btnMult.Size = new System.Drawing.Size(30, 27);

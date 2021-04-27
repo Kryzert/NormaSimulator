@@ -8,3 +8,13 @@ D:\Comp\Teoria da Computação\Maquina Norma\MaquinaNorma\obj\Debug\MaquinaNorma
 D:\Comp\Teoria da Computação\Maquina Norma\MaquinaNorma\obj\Debug\MaquinaNorma.csproj.CoreCompileInputs.cache
 D:\Comp\Teoria da Computação\Maquina Norma\MaquinaNorma\obj\Debug\MaquinaNorma.exe
 D:\Comp\Teoria da Computação\Maquina Norma\MaquinaNorma\obj\Debug\MaquinaNorma.pdb
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\bin\Debug\MaquinaNorma.exe.config
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\bin\Debug\MaquinaNorma.exe
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\bin\Debug\MaquinaNorma.pdb
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\obj\Debug\MaquinaNorma.csprojAssemblyReference.cache
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\obj\Debug\MaquinaNorma.Form1.resources
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\obj\Debug\MaquinaNorma.Properties.Resources.resources
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\obj\Debug\MaquinaNorma.csproj.GenerateResource.cache
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\obj\Debug\MaquinaNorma.csproj.CoreCompileInputs.cache
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\obj\Debug\MaquinaNorma.exe
+D:\Comp\Teoria da Computação\Maquina Norma\NormaSimulator\obj\Debug\MaquinaNorma.pdb
